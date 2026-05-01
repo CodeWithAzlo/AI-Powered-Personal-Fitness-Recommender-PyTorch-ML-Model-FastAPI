@@ -34,13 +34,14 @@ User Input → Preprocessing → PyTorch Model → Prediction → FastAPI Respon
 
 ```
 fitness-ml-model-pytorch/
-├── app.py                 # FastAPI application
-├── predict.py             # Inference functions
-├── fitness_recommender.ipynb  # Training notebook
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-├── LICENSE                # MIT License
-└── .gitignore             # Git ignore rules
+├── app.py                      # FastAPI application
+├── predict.py                  # Inference functions
+├── fitness_recommender.ipynb   # Training notebook (Jupyter)
+├── fitness_recommender.py      # Training script (Python)
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+├── LICENSE                     # MIT License
+└── .gitignore                  # Git ignore rules
 ```
 
 ## 🚀 Quick Start
@@ -106,8 +107,15 @@ fitness-ml-model-pytorch/
 
 ### Training the Model
 
-Run `fitness_recommender.ipynb` in Jupyter:
+**Option 1: Jupyter Notebook (Recommended)**
+- Open `fitness_recommender.ipynb` in Jupyter Notebook, VS Code, or Google Colab.
+- **Free GPU on Colab**: Upload the notebook to [Google Colab](https://colab.research.google.com/) for free GPU acceleration (Runtime > Change runtime type > GPU).
+- Run all cells to train the model.
 
+**Option 2: Python Script**
+- Run `python fitness_recommender.py` to train and save the model.
+
+Steps:
 1. **Dataset Generation**: Creates 2000 synthetic samples with realistic fitness logic
 2. **Preprocessing**: Encodes categoricals, scales numerical features
 3. **Model Training**: 3-layer neural network trained for 200 epochs
