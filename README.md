@@ -3,9 +3,8 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/fitness-recommender?style=social)](https://github.com/yourusername/fitness-recommender)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/fitness-recommender?style=social)](https://github.com/yourusername/fitness-recommender)
+[![GitHub stars](https://img.shields.io/github/stars/CodeWithAzlo/AI-Powered-Personal-Fitness-Recommender-PyTorch-ML-Model-FastAPI?style=social)](https://github.com/CodeWithAzlo/AI-Powered-Personal-Fitness-Recommender-PyTorch-ML-Model-FastAPI)
+[![GitHub forks](https://img.shields.io/github/forks/CodeWithAzlo/AI-Powered-Personal-Fitness-Recommender-PyTorch-ML-Model-FastAPI?style=social)](https://github.com/CodeWithAzlo/AI-Powered-Personal-Fitness-Recommender-PyTorch-ML-Model-FastAPI)
 
 An AI-powered fitness recommendation system built with PyTorch and FastAPI. Get personalized workout suggestions based on your profile, with confidence scores and expert explanations.
 
